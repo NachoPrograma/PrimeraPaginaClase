@@ -1,0 +1,245 @@
+header{
+    border: 4px solid rgb(0, 0, 0);
+    text-align: center;
+    margin-top: -8px;
+    margin-left: -10px;
+    height: 50px;
+    width: 100%;
+    font-size: 40px;
+    background-color: rgb(212, 71, 170);
+    color: rgb(0, 0, 0);
+    z-index: 10;
+    position: fixed;
+    min-width: 1000px;
+    z-index: 100;
+}
+
+#left{
+    float: left;
+    position: absolute;
+    top: -10px;
+    height: 70px;
+    width: 70px;
+    background-repeat: no-repeat;
+    background-image: url(/fotosAfrodita/Aphrodite-bond-icon.png);
+    background-size: 70px;
+}
+#right{
+    float: right;
+    height: 70px;
+    width: 70px;
+    margin-top: -10px;
+    top: -10px;
+    background-image: url(/fotosAfrodita/Aphrodite-bond-icon.png);
+    background-size: 70px;
+}
+body{
+    background-image: url(/fotosAfrodita/hades-boons-aphrodite.jpg_1200x675_.jpg);
+    background-size:100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+.logo{
+    height: 100px;
+    width: 285px;
+    z-index: 30;
+    margin-top: -30px;
+    background-image: url(/fotosZeus/logo\ hades.png);
+    background-size: 300px;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 150px;
+    left: 210px;
+    }
+nav{
+    position: absolute;
+    top: 135px;
+    left: 470px;
+    z-index: 25;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    min-width: 1000px;
+    
+}
+.nave{
+    display: inline-block;
+    
+}
+.nave a{
+    text-decoration: none;
+    color: white;
+}
+.block{
+    min-width: 2000px;
+}
+section{
+    border: 3px solid rgb(0, 0, 0);
+    padding-top: 20px;
+    height: 1820px;
+    width: 850px;
+    background-color: rgb(187, 59, 148);
+    float:left;
+    margin-top: 192px;
+    margin-left: 180px;
+    font-size: 20px;
+    min-width: 400px;
+}
+.letraSection{
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: justify;
+}
+.tabla1{
+    margin-top: 30px;
+    float:left;
+    border: solid 2px black;
+    width: 100%;
+    padding-left: 0px;
+
+    
+}.panel1{
+    border: solid 5px black;
+    height: 30px;
+    font-size: 20px;
+}
+.panel2{
+    border: solid 2px black;
+    height: 120px;
+    font-size: 20px;
+    text-align: center;
+}
+.panel3{
+    display: inline-block;
+    margin: 10px;
+}
+#basico{
+    height: 80px;
+    width: 80px;
+    background-size: cover;
+    background-image: url(/fotosAfrodita/Heartbreak_Strike.png);
+    z-index: 15;
+}
+#especial{
+    height: 80px;
+    width: 80px;
+    background-size: cover;
+    background-image: url(/fotosAfrodita/Heartbreak_Flourish.png);
+    z-index: 15;
+}
+#arrojadizo{
+    height: 80px;
+    width: 80px;
+    background-size: cover;
+    background-image: url(/fotosAfrodita/Crush_Shot.png);
+    z-index: 15;
+}
+#dash{
+    height: 80px;
+    width: 80px;
+    background-size: cover; 
+    background-image: url(/fotosAfrodita/Passion_Dash.png);
+    z-index: 15;
+}
+#llamamiento{
+    height: 80px;
+    width: 80px;
+    background-size: 100%;
+    background-image: url(/fotosAfrodita/llamamiento\ Afro.png);
+    z-index: 15;
+}
+.lateral{
+    float: left;
+    margin-top: 192px;
+    margin-right: 132px;
+    border: 2px solid black;
+    background-color: rgb(240, 51, 183);
+    width: 300px;
+    height: 1840px; 
+    min-width: 0px;
+}
+.encabezado{
+    background-color: rgb(51, 51, 51);
+    height: 80px;
+    color: rgb(240, 51, 183);
+    text-align: center;
+    font-size: 25px;
+}
+.fotoDios{
+    background-image: url(/fotosAfrodita/Aphrodite.png);
+    background-size: 303px;
+    height: 360px;
+    background-repeat: no-repeat;
+}
+.bendicion{
+    background-image: url(/fotosAfrodita/Aphrodite_symbol.png);
+    height: 230px;
+    background-size: cover;
+    width: 230px;
+    left: 280px;
+    position: relative;
+    top: 985px;
+    background-repeat: no-repeat;
+    border: black solid 3px;
+}
+.bendicionTexto{
+    position: relative;
+    top:260px;
+    left:208px;
+}
+.textoVideo{
+    padding-left: 23px;
+    font-size: 20px;
+}
+#panel{
+    margin-top: 50px;
+    position: fixed;
+}
+li{
+    width: 130px;
+    height: 55px;
+    border: 3px solid black;
+    background-color: rgb(240, 51, 183);
+    text-align: center;
+    font-size: 25px;
+    list-style: none;
+    margin-left: -48px;
+}
+#panel li a{
+    display:block;
+    padding:14px;
+    text-decoration: none;
+    color:rgb(0, 0, 0);
+    font-weight: 800;
+}
+.zeus a:hover {
+    background-color: yellow;
+}
+.poseidon a:hover {
+     background-color: rgb(0, 204, 255);
+}
+.hermes a:hover {
+    background-color: rgb(233, 160, 2);
+}
+.ares a:hover {
+    background-color: rgb(207, 0, 0);
+}
+.atenea a:hover {
+    background-color: rgb(233, 240, 170);
+}
+.dionisio a:hover {
+    background-color: rgb(132, 0, 255);
+}
+.artemisa a:hover {
+    background-color: rgb(61, 243, 6);
+}
+.demeter a:hover {
+    background-color: rgb(194, 232, 241);
+}
+.zegreo a:hover {
+    background-color: rgb(121, 2, 48);
+}
+.afrodita a:hover {
+    background-color: rgb(231, 73, 210);
+}
+
